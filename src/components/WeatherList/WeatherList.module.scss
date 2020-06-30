@@ -1,0 +1,22 @@
+ul {
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  max-height: 100vh;
+}
+.weatherListItem {
+  margin-right: 15px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  list-style-type: none;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.weatherListItemTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+span {
+  padding-right: 10px;
+}
